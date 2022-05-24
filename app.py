@@ -2,6 +2,7 @@ import streamlit as st
 from app_home import run_home
 from app_eda import run_eda
 from app_ml import run_ml
+from app_ml import message_cleaning
 
 def main():
     st.title('리뷰 긍정 부정 예측 앱')

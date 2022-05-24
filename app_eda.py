@@ -37,3 +37,5 @@ def run_eda():
     selected = st.selectbox('별점 선택',star_menu)
 
     st.dataframe(df.loc[df['stars'] == selected,['stars','text'] ])
+
+    
